@@ -72,7 +72,7 @@ PreLoader = ({data,resImages}:any) => {
                                 <Typography 
                                 className=' '
                                 sx={{color:'black',fontSize:{xs:'18px',sm:'18px'},mt:1,maxWidth:'800px'}}>
-                             Welcome to a realm where skincare meets indulgence. At Number1ByCarla, we're not just about products; we're about creating transformative experiences.
+                             Welcome to a realm where skincare meets indulgence. At Number1ByCarla, we&apos;re not just about products; we&apos;re about creating transformative experiences.
 
                                 </Typography>
                               
@@ -263,7 +263,7 @@ component={'h1'}
     padding:.5,
     fontWeight: '900'
 }}>
-Don't just dream about beautiful skin
+Don&apos;t just dream about beautiful skin
 </Typography>
 <Typography
 component={'p'}

@@ -22,7 +22,7 @@ const Footer = () => (
             </Link>
           </div>
           <Typography component='h1' sx={{ fontSize: '18px',color:"black" }}  className='footer-p '>
-          Thank you for choosing Number1ByCarla. We're committed to providing you with luxurious skincare products that pamper your skin and elevate your daily routine. Our moisturizers, body oils, and tanning oils are designed with love in the heart of Lebanon, promising you a transformative skincare experience. Stay radiant, stay beautiful with Number1ByCarla.
+          Thank you for choosing Number1ByCarla. We&apos;re committed to providing you with luxurious skincare products that pamper your skin and elevate your daily routine. Our moisturizers, body oils, and tanning oils are designed with love in the heart of Lebanon, promising you a transformative skincare experience. Stay radiant, stay beautiful with Number1ByCarla.
           </Typography>
 
           {/* <ul className="site-footer__social-networks">
