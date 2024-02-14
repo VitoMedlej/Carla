@@ -2,11 +2,11 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Avenir", sans-serif !important;
+  font-family: "Sk-Modernist" !important;
 }
 
 * h1, h2, h3, h4, h5, h6, p, button, input, select, textarea, a {
-  font-family: "Avenir", sans-serif !important;
+  font-family: "Sk-Modernist" !important;
 }
 
 .emailinput {
@@ -29,6 +29,11 @@ body {
 .topd {
   -o-object-position: top;
      object-position: top;
+}
+
+.bottomd {
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 
 .centerd {

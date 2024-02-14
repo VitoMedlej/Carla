@@ -86,7 +86,9 @@ export default function Navbar() {
                 width:'100%',
             margin: '0 auto',
         }}>
-            <Box className='center text-center bg2' sx={{width:'100%',py:.25}}>
+            <Box className='center text-center bg2' sx={{
+                display:{xs:'none',sm:'flex'},
+                width:'100%',py:.25}}>
                 <Typography className='' component='h1' sx={{color:'#0f0f0f',px:.5,py:.2,fontSize:{xs:'.65em',sm:'.75em'}}}>
             FREE DELIVERY FOR ORDERS ABOVE $40. CASH ON DELIVERY. USD AT DAILY MARKET RATE.
                 </Typography>
@@ -99,9 +101,9 @@ export default function Navbar() {
             position:{xs:'relative',sm:'absolute'},
             right:{xs:'0%',sm:'50%'},
         
-        transform:{sm:'translateX(50%)'},width:{xs:'auto',sm:'200px'},height:{xs:'100px',sm:'200px'}}}>
+        transform:{sm:'translateX(50%)'},width:{xs:'auto',sm:'100px'},height:{xs:'100px',sm:'100px'}}}>
             <img
-             src="https://ucarecdn.com/d0533aac-5ae0-4ed5-836f-827bb7428c5a/WhatsApp_Image_20240131_at_151932__1_removebg.png"
+             src="https://ucarecdn.com/8d771867-274f-4c3a-ba35-2a177ee9dc1e/carlalogotransformed.png"
              
              
              alt="logo" className="img logo" />

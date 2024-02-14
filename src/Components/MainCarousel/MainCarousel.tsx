@@ -17,16 +17,21 @@ const Preloader3 = ({res}:{res:any}) => {
     const router = useRouter()
     const [imgs,setImgs] = useState([
         {
+            img:'https://ucarecdn.com/c49373fc-85f0-4da1-803c-d2614270e5bb/TRI6.jpg',
+            position:'center',
+        },
+        {
             img : 'https://helwe.com/cdn/shop/files/HELWE1125_1500x.jpg?v=1694639701',
             position:'top',
         },
+        
       {
         img: 'https://helwe.com/cdn/shop/files/1_e0850903-aa85-4de4-b1bb-760310fd7813_1200x.png?v=1688387749',
         position:'',
-    }
+    },
      ])
      const redir = () => {
-        router.push('/services')
+        router.push('/collection/products')
         // console.log('abc')
      }
     useEffect(() => {
@@ -37,7 +42,7 @@ const Preloader3 = ({res}:{res:any}) => {
         setImgs(res?.MainCarousel)
     }
     }, [])
-  const {text} = useLanguage()
+//   const {text} = useLanguage()
     
     return (
         <Box
@@ -107,21 +112,34 @@ const Preloader3 = ({res}:{res:any}) => {
                                 transform:'translateY(-50%)',
                                 zIndex:123456,
                                 position:'absolute'}}>
-                                <Typography 
-                                className=''
-                                
-                                sx={{
-                                 maxWidth:'600px',
-                                  
-                                  color:'black',fontSize:{xs:'1.2em',
-                                sm:'1.2em',md:'1.165em',lg:'1.5em'},fontWeight:'900'}}>
+                         <Typography
+component={'h1'}
+    className='sectionTitle uppercase  box'
+    sx={{
+ 
+    fontSize: {
+        xs: '22px',
+        sm: '24px'
+    },
+    padding:.5,
+    fontWeight: '900'
+}}>
                              
-                             WHERE EXCELLENCE MEETS AUTOMOTIVE CARE
+                             enhance your tan while keeping your skin moisturized.
                                 </Typography>
-                                <Typography 
-                                className=' '
-                                sx={{color:'black',fontSize:{xs:'.85em',sm:'.87em'},mt:1,maxWidth:'600px'}}>
-                                  We take pride in providing the best-in-class services to keep your vehicle in pristine condition.
+                                <Typography
+component={'p'}
+    className='sectionTitle  box'
+    sx={{
+ 
+    fontSize: {
+        xs: '.98em',
+        sm: '1.1em'
+    },
+    padding:.5,
+    fontWeight: '300'
+}}>
+Our products are crafted with care, ensuring that each application leaves your skin feeling refreshed and rejuvenated.
 
                                 </Typography>
                                 <Box className="flex ">
@@ -130,7 +148,7 @@ const Preloader3 = ({res}:{res:any}) => {
                                 onClick={()=>redir()}
                                 
                                 className='   ' sx={{mx:'0',mt:1}}>
-                             View Services
+                            Join us
 
                                 </Btn>
                             

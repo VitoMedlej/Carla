@@ -49,8 +49,8 @@ const Testimonial = () => {
     
     
   return (
-    <Box className=' flex col ' sx={{width:'100%',height:'100%'}}>
- <Box className='flex col'  sx={{flex:1,width:'100%',pt:'0em'}}>
+    <Box className=' flex col ' sx={{mt:{xs:'5em',sm:'5em',md:'7em'},width:'100%',height:'100%'}}>
+ <Box className='flex col'  sx={{flex:1,width:'100%',pt:'1em'}}>
 
  <Typography 
                                 className='text-center auto center'
@@ -87,7 +87,7 @@ const Testimonial = () => {
                 disableOnInteraction: true
             }}
             
-                // navigation={true}
+                navigation={true}
                 spaceBetween={10}
                 slidesPerView={2}
                 breakpoints={

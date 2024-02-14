@@ -64,20 +64,18 @@ PreLoader = ({data,resImages}:any) => {
                                 sx={{
                                  maxWidth:'600px',
                                   
-                                  color:'black',fontSize:{xs:'1.2em',
-                                sm:'1.4em',md:'1.565em',lg:'2em'},fontWeight:'900'}}>
+                                  color:'black',fontSize:{xs:'30px',
+                                sm:'30px',md:'30px',lg:'30px'},fontWeight:'900'}}>
                              
-                             Our approach
+                             Your Gateway to Glowing Skin
                                 </Typography>
                                 <Typography 
                                 className=' '
-                                sx={{color:'black',fontSize:{xs:'.85em',sm:'.87em'},mt:1,maxWidth:'800px'}}>
-                               We personalize and elaborate a skincare routine for every individual. To maintain a healthy and glowing skin, we recommend you a three-step layering routine with products adapted to your skin type or concern.
+                                sx={{color:'black',fontSize:{xs:'18px',sm:'18px'},mt:1,maxWidth:'800px'}}>
+                             Welcome to a realm where skincare meets indulgence. At Number1ByCarla, we're not just about products; we're about creating transformative experiences.
 
                                 </Typography>
-                                <Btn sx={{mt:1}}>
-                                  Learn More
-                                </Btn>
+                              
         </Grid>
     
       <HomeProductsCarousel  data={data} Collectiontitle={''} delay={0}/>
@@ -85,7 +83,8 @@ PreLoader = ({data,resImages}:any) => {
       
 
       <Container className='flex col ' sx={{
-        px:0,
+        px:0, 
+        pt:'2em',
         my:{xs:8,sm:12}}} maxWidth='lg'>
 
 <Typography 
@@ -94,6 +93,7 @@ PreLoader = ({data,resImages}:any) => {
                                 sx={{
                                  maxWidth:'600px',
                                     px:1,
+
                                   color:'black',fontSize:{xs:'1.2em',
                                 sm:'1.4em',md:'1.565em',lg:'2em'},fontWeight:'900'}}>
                              
@@ -101,7 +101,7 @@ PreLoader = ({data,resImages}:any) => {
                                 </Typography>
                                 <Typography 
                                 className='text-center auto center'
-                                sx={{color:'black',fontSize:{xs:'.85em',sm:'.87em'},mt:1,maxWidth:'800px'}}>
+                                sx={{color:'black',fontSize:{xs:'.85em',sm:'.87em'},mt:1,px:1,maxWidth:'800px'}}>
                            Do you know your skin type? Read more to understand your skin type or contact us for a free consultation with our skin experts.
 
                                 </Typography>
@@ -137,24 +137,26 @@ PreLoader = ({data,resImages}:any) => {
 
       <Grid container sx={{maxWidth:'lg',mx:'auto'}}>
         <Grid className='flex items-center' item xs={12} md={5}>
-            <Box className='bg2 col flex items-center' sx={{
+            <Box className=' col flex items-center' sx={{
             
              px:{xs:1,sm:4},py:4,
-              borderRadius:'4px',
+              borderRadius:'0px',
+              background:'white',
               transform:{md:'translateX(25%)'},
            }}>
-            <Typography
+                  <Typography
 component={'h1'}
     className='sectionTitle   text-center box'
     sx={{
+ 
     fontSize: {
-        xs: '2em',
-        sm: '3em'
+        xs: '22px',
+        sm: '24px'
     },
     padding:.5,
     fontWeight: '900'
 }}>
- Revitalize Your Hair with Amaria
+Experience the Luxury of Moisturizing
 </Typography>
 <Typography
 component={'p'}
@@ -162,35 +164,42 @@ component={'p'}
     sx={{
  
     fontSize: {
-        xs: '.8em',
-        sm: '1em'
+        xs: '.98em',
+        sm: '1.1em'
     },
     padding:.5,
     fontWeight: '300'
 }}>
-Unleash the power of nature with Amarias hair care set. Experience the transformation today!
+transforming everyday skincare into a moment of indulgence today!
 </Typography>
+<Btn
+            sx={{mt:2,mx:'auto'}}
+            onClick={()=>router.push('/collection/products')}>
+                Shop All
+            </Btn>
             </Box>
         </Grid>
         <Grid item xs={12} md={7}>
-          <Box className='auto' sx={{width:'95%',height:'100%'}}>
-            <img style={{borderRadius:'4px'}} src="https://ucarecdn.com/b40a6c28-337e-4ee3-b675-87eb94bbb9cf/413040906_17962573337695373_7471455854767187837_n.jpg" alt="" className="img" />
+          <Box className='auto' sx={{width:'95%',height:{xs:'100%',sm:'400px'}}}>
+            <img style={{borderRadius:'4px'}} src="https://helwe.com/cdn/shop/files/fresh-and-natural-spa-decor_800x.jpg?v=1614332671" alt="" className="img" />
           </Box>
         </Grid>
       </Grid>
 
       <Grid container sx={{my:{xs:6,sm:12},maxWidth:'lg',mx:'auto'}}>
       <Grid item xs={12} md={7}>
-          <Box className='auto' sx={{width:'95%',height:'100%'}}>
-            <img style={{borderRadius:'4px'}} src="https://instagram.fbey22-1.fna.fbcdn.net/v/t39.30808-6/399151310_17953961009695373_8676238376226840435_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=instagram.fbey22-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=Qp_yd9rwR20AX9axQFh&edm=ABmJApAAAAAA&ccb=7-5&ig_cache_key=MzIyOTQ1OTA1MjQ5NTA0NTQ4NA%3D%3D.2-ccb7-5&oh=00_AfACKGhDXDDdui-fZ6lXfGPQhpSvo0Sv16ukVJaD6TYZZg&oe=65C34E47&_nc_sid=b41fef" alt="" className="img" />
+          <Box className='auto' sx={{width:'95%',height:{xs:'100%',sm:'400px'}}}>
+            <img style={{borderRadius:'4px'}} src="https://helwe.com/cdn/shop/files/shop6_0b559809-c209-4381-8eaf-3b9f023a0651_1922x.jpg?v=1672230241" alt="" className="img" />
           </Box>
         </Grid>
         
         <Grid className='flex items-center' item xs={12} md={5}>
-            <Box className=' col bg2 flex items-center' sx={{
+            <Box className=' col  flex items-center' sx={{
             
              px:{xs:1,sm:4},py:4,
-              borderRadius:'4px',
+              borderRadius:'0px',
+              background:'white',
+
               transform:{md:'translateX(-25%)'},
            }}>
             <Typography
@@ -199,13 +208,13 @@ component={'h1'}
     sx={{
  
     fontSize: {
-        xs: '2em',
-        sm: '3em'
+        xs: '22px',
+        sm: '24px'
     },
     padding:.5,
     fontWeight: '900'
 }}>
- Nourish and Glow Your Hair
+ Nutrient-rich body oils.
 </Typography>
 <Typography
 component={'p'}
@@ -213,20 +222,76 @@ component={'p'}
     sx={{
  
     fontSize: {
-        xs: '.8em',
-        sm: '1em'
+        xs: '.98em',
+        sm: '1.1em'
     },
     padding:.5,
     fontWeight: '300'
 }}>
 Feed your hair the nutrition it craves. Our hair serum provides the perfect nourishment for lustrous growth
 </Typography>
+<Btn
+            sx={{mt:2,mx:'auto'}}
+
+            onClick={()=>router.push('/collection/products')}>
+                Shop Now
+            </Btn>
             </Box>
         </Grid>
      
       </Grid>
 
 
+      <Grid container sx={{maxWidth:'lg',mx:'auto'}}>
+        <Grid className='flex items-center' item xs={12} md={5}>
+            <Box className=' col flex items-center' sx={{
+            
+             px:{xs:1,sm:4},py:4,
+              borderRadius:'0px',
+              background:'white',
+              transform:{md:'translateX(25%)'},
+           }}>
+                  <Typography
+component={'h1'}
+    className='sectionTitle   text-center box'
+    sx={{
+ 
+    fontSize: {
+        xs: '22px',
+        sm: '24px'
+    },
+    padding:.5,
+    fontWeight: '900'
+}}>
+Don't just dream about beautiful skin
+</Typography>
+<Typography
+component={'p'}
+    className='sectionTitle   text-center box'
+    sx={{
+ 
+    fontSize: {
+        xs: '.98em',
+        sm: '1.1em'
+    },
+    padding:.5,
+    fontWeight: '300'
+}}>
+Make it a reality, Start your journey towards radiant, glowing skin. Remember, at Number1ByCarla
+</Typography>
+<Btn
+            sx={{mt:2,mx:'auto'}}
+            onClick={()=>router.push('/collection/products')}>
+                Shop All
+            </Btn>
+            </Box>
+        </Grid>
+        <Grid item xs={12} md={7}>
+          <Box className='auto' sx={{width:'95%',height:{xs:'100%',sm:'400px'}}}>
+            <img style={{borderRadius:'4px'}} src="https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="img" />
+          </Box>
+        </Grid>
+      </Grid>
     
  
 

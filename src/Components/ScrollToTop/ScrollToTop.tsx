@@ -23,18 +23,23 @@ const ScrollUp = () => {
     </IconButton>
 </Paper>
     </Box> */}
-    <a style={{textDecoration:'none',borderRadius:'2000px',background:'white'}} href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} target='_blank' rel='noopener'>
+    <a 
+    className='bg2'
+    style={{textDecoration:'none',borderRadius:'2000px',background:'white'}} 
+    href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} target='_blank' rel='noopener'>
     
-    <Btn sx={{ border:'1px solid transparent',
+    <Btn  sx={{ border:'1px solid transparent',
     borderRadius:25,
-    background:'white',
     boxShadow:`rgba(0, 0, 0, 0.24) 0px 3px 8px`,
     padding:0,':hover':{background:'transparent'}}}>
-      <Box className='center flex align-center' sx={{width:'30px',ml:1}}>
-      <img src="https://www.7979.org.my/uploads/1/2/6/3/126376279/whatsapp-icon_1.png" alt="Whatsapp Icon" className="img" />
+         <Box className='bg2' sx={{py:1,px:1,borderRadius:25,color:'black'}}>
+         <Typography sx={{fontWeight:600,pl:1,fontSize:'1.08em'}}>
+      +961 71219846
+
+         </Typography>
       </Box>
-         <Box sx={{mr:1,background:'white',py:1,px:2,borderRadius:25,color:'black'}}>
-         +961 71 521 926
+      <Box className='center  flex align-center' sx={{mr:1,width:'30px'}}>
+      <img src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png" alt="Whatsapp Icon" className="img" />
       </Box>
    
     </Btn>

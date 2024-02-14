@@ -18,11 +18,11 @@ const Footer = () => (
               {/* <a><h1 className="site-logo"><Logo />E-Shop</h1></a> */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675357773/logo_ghli5e.jpg */}
               {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675713948/logo_sktnut_1_jwy2hk.png */}
-            <img className='img ' src='https://ucarecdn.com/d0533aac-5ae0-4ed5-836f-827bb7428c5a/WhatsApp_Image_20240131_at_151932__1_removebg.png' alt="Pets Town Lebanon Logo" />
+            <img className='img ' src='https://ucarecdn.com/8d771867-274f-4c3a-ba35-2a177ee9dc1e/carlalogotransformed.png' alt="Pets Town Lebanon Logo" />
             </Link>
           </div>
-          <Typography component='h1' sx={{ fontSize: '.95em',color:"2b2b2b" }}  className='footer-p '>
-          Welcome to AMARIA, your one-stop destination for premium organic honey. As experts in bee culture, diseases, and treatments, we’re dedicated to providing you with the highest quality honey products.
+          <Typography component='h1' sx={{ fontSize: '18px',color:"black" }}  className='footer-p '>
+          Thank you for choosing Number1ByCarla. We're committed to providing you with luxurious skincare products that pamper your skin and elevate your daily routine. Our moisturizers, body oils, and tanning oils are designed with love in the heart of Lebanon, promising you a transformative skincare experience. Stay radiant, stay beautiful with Number1ByCarla.
           </Typography>
 
           {/* <ul className="site-footer__social-networks">
@@ -66,8 +66,8 @@ const Footer = () => (
             
             {/* <li><a href="https://www.facebook.com/profile.php?id=100076163602459/" target="_blank" rel="noreferrer" >Facebook</a></li> */}
 
-            <li><a href="https://www.instagram.com/BeeOrganic/" target="_blank" rel="noreferrer" >@BeeOrganic</a></li>
-            <li><a href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} rel="noreferrer" target='_blank' >+{process.env.NEXT_PUBLIC_WA}</a></li>
+            <li><a href="https://www.instagram.com/number1bycarla/" target="_blank" rel="noreferrer" >@number1bycarla</a></li>
+            <li><a href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} rel="noreferrer" target='_blank' >+961 71 219 846</a></li>
             {/* <li><a href={`http://tiktok.com/@thecraftroomlb`} rel="noreferrer" target='_blank' >TikTok</a></li> */}
             <SMicons/>
         

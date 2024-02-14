@@ -46,12 +46,12 @@ const ProductCard = ({
         <Box
             className='  trans cardproduct center text-center'
             sx={{
-            boxShadow: `rgba(0, 0, 0, 0.05) 0px 0px 0px 1px`,
+            // boxShadow: `rgba(0, 0, 0, 0.05) 0px 0px 0px 1px`,
             // border : '1px solid #000000a',
             py: 1,
             margin: '0em auto',
             my:1,
-            borderRadius: '5px',
+            // borderRadius: '5px',
             minWidth: {sm:'30%'},
             width: width
                 ? width
@@ -73,9 +73,9 @@ const ProductCard = ({
                     ? images[0]
                     : ''}
                     alt="Prdouct image"
-                    className="img contain"/>
+                    className="img cover"/>
             </Box>
-            <Divider></Divider>
+            {/* <Divider></Divider> */}
             
             <Box 
             sx={{
@@ -116,7 +116,7 @@ const ProductCard = ({
     )}
 </Typography>
 <Btn 
-            className='cursor black clr  gap1'
+            className='cursor black   gap1'
                 
                      onClick={()=>
                         sizes &&  sizes?.length > 0 ? 
@@ -127,7 +127,8 @@ const ProductCard = ({
                     v2
                     sx={{
                         border:'1px solid transparent',
-                        ':hover':{background:'transparent',border:'1px solid '},
+                        
+                        ':hover':{background:'transparent',border:'1px solid #e1d4c7 '},
                         color:'black !important',
                         margin:'0 '
                     // borderRadius:'8',
@@ -136,7 +137,7 @@ const ProductCard = ({
                 }}>
                     <Box sx={{
                         
-                        color:'black !important',}} className="flex clr ">
+                        color:'black !important',}} className="flex  ">
 
                     {sizes && sizes?.length > 0 ? 'Select Size' :  'ADD'}
                     <BiCartAdd fontSize='20px'/>

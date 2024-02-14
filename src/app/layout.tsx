@@ -8,10 +8,10 @@ import QuickCart from '@/Components/Shared/QuickCart/QuickCart'
 import ContextWrapper from '@/context/Contexts'
 
 export const metadata = {
-    title: 'Amaria: Natural, Organic, and Handmade Beauty Essentials - Body, Hair, Lip, and Facial Care',
-    description: `where beauty meets nature. Explore our exquisite range of natural, organic, and handmade skin treats, meticulously crafted by licensed dietitians, aromatherapists, and herbalists. Wholesale and retail options available. Elevate your self-care routine with our Body, Hair, Lip, and Facial Care lines.`,
+    title: 'Number1ByCarla: Premium Moisturizers, Body Oils, and Tanning Oils',
+    description: `Experience the sheer joy of moisturizing with Number1ByCarla. Our Lebanese brand offers premium moisturizers, body oils, and tanning oils for a luxurious skincare routine.`,
     icons: {
-        icon: `https://ucarecdn.com/d0533aac-5ae0-4ed5-836f-827bb7428c5a/WhatsApp_Image_20240131_at_151932__1_removebg.png`
+        icon: `https://ucarecdn.com/416d79f7-b2f0-405a-a62d-a575cf8e405e/410140937_1411199259826354_1255657051340304468_n.jpg`
     }
 }
 
@@ -21,7 +21,7 @@ export default function RootLayout({children} : {
     return (
         <html lang="en">
             <head>
-            <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet"/>
+            <link href="https://db.onlinewebfonts.com/c/97386c1d7bdb684478ab36ec4e1129c8?family=Sk-Modernist" rel="stylesheet"/>
             </head>
 
             <body className='relative'>

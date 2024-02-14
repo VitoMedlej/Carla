@@ -46,13 +46,26 @@ mx:'1em',
 alignItems: 'center',
 
 fontWeight:600,fontSize:{xs:'.86em',sm:'.8em'}}}>
-COLLECTION
+Shop Now
+</Typography>
+</Link>
+<Link className='black decor-none ' href={`/about`}>
+
+<Typography 
+className=' cursor center flex gap1 black decor-none captialize'
+id="button"
+component='h1' sx={{width:'max-content',
+mx:'1em',
+alignItems: 'center',
+
+fontWeight:600,fontSize:{xs:'.86em',sm:'.8em'}}}>
+About Us
 </Typography>
 </Link>
 
 
 {
-   ['body care', 'facial care', 'lip care', 'hair care', 'home care'].map(i=>{
+   [`moisturizer`, `body oils`, `tanning oils`].map(i=>{
         return <Link key={i} className='black decor-none ' href={`/${i.toLocaleLowerCase()}/products`}>
 
         <Typography 
