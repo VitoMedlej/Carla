@@ -86,7 +86,8 @@ const Index = () => {
         // border:'1px solid #00000029',
         px:{xs:1,sm:1.5}}} item xs={12}  md={5}>
          <Box sx={{pt:{xs:3,sm:0}}}>
-             <Typography component={'h1'} sx={{fontWeight:400,pt:1,fontSize:{xs:'2em',sm:'2.25sem',md:'3em'}}}>
+             <Typography component={'h1'} 
+             sx={{fontWeight:600,pt:1,fontSize:{xs:'2em',sm:'2.05em',md:'2.15em'}}}>
               {data?.product?.title || 'Loading Product Details'}
              </Typography>
            { data?.product?.inStock !== false ? <Typography className='green' component={'h1'} sx={{fontSize:'1.25em',fontWeight:300}}>
@@ -98,7 +99,7 @@ const Index = () => {
              </Typography>
             }
           { data?.product?.inStock !== false &&   <Typography 
-                 component={'h1'} sx={{my:.25,fontWeight:500,color:'green',fontSize:{xs:'1em',sm:'1.55em'}}}>
+                 component={'h1'} sx={{my:.25,fontWeight:500,color:'black',fontSize:{xs:'1em',sm:'1.55em'}}}>
                  ${
                  selectedSize?.price ||
                  data?.product?.price || 0}
@@ -119,10 +120,10 @@ const Index = () => {
               </Box>
             
      
-              <SelectWeight
+             {data?.product?.sizes?.length > 0 &&  <SelectWeight
               selectedSize={selectedSize  }
               setselectedSize={setselectedSize}
-              sizes={data?.product?.sizes ? data?.product?.sizes:  [{price:Number(data?.product?.price),size:parseFloat(data?.product?.size)}]}/>
+              sizes={data?.product?.sizes ? data?.product?.sizes:  [{price:Number(data?.product?.price),size:parseFloat(data?.product?.size)}]}/>}
      
              <Btn 
                      onClick={()=>
@@ -204,9 +205,11 @@ const Index = () => {
          </Box>}
 
            
-             <Typography className='gray' sx={{whiteSpace:'pre-wrap',maxWidth:'100%'}}>
-   {data?.product?.description}
-             </Typography>
+         <Typography 
+      className='gray' 
+      sx={{whiteSpace:'pre-wrap',maxWidth:'100%'}}
+      dangerouslySetInnerHTML={{ __html: data?.product?.description }}
+    />
          </Box>
        </Grid>
          {/* <ProductReview/>  */}

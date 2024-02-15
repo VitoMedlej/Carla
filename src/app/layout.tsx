@@ -22,6 +22,7 @@ export default function RootLayout({children} : {
         <html lang="en">
             <head>
             <link href="https://db.onlinewebfonts.com/c/97386c1d7bdb684478ab36ec4e1129c8?family=Sk-Modernist" rel="stylesheet"/>
+            {/* <link href="https://fonts.cdnfonts.com/css/sk-synonym-grotesk-trial" rel="stylesheet"/> */}
             </head>
 
             <body className='relative'>
