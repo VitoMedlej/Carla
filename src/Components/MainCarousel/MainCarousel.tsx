@@ -53,8 +53,8 @@ const Preloader3 = ({res}:{res:any}) => {
             transform:'translateY(-1px)',
             maxWidth:'none',
             // maxWidth: 'lg',
-            minHeight:{xs:'500px',sm:'500px',lg:'600px'},
-            maxHeight:{sm:'500px',md:'600px',lg:'100vh'},
+            minHeight:{xs:'550px',sm:'500px',lg:'600px'},
+            maxHeight:{sm:'550px',md:'600px',lg:'100vh'},
             margin: '0 auto',
          
             height : {xs:'500px',sm:'600px',md:'100vh'},
