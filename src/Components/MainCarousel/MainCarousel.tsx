@@ -54,10 +54,10 @@ const Preloader3 = ({res}:{res:any}) => {
             maxWidth:'none',
             // maxWidth: 'lg',
             minHeight:{xs:'500px',sm:'500px',lg:'600px'},
-            maxHeight:{sm:'100%',md:'600px',lg:'100vh'},
+            maxHeight:{sm:'500px',md:'600px',lg:'100vh'},
             margin: '0 auto',
          
-            height : {xs:'100vh',sm:'600px',md:'100vh'},
+            height : {xs:'500px',sm:'600px',md:'100vh'},
              
             display: {
                 xs: 'flex'
@@ -109,7 +109,7 @@ const Preloader3 = ({res}:{res:any}) => {
                                 px:3,
                                 py:3,
                                 borderRadius:'8px',
-                                transform:'translateY(-50%)',
+                                transform:{xs:'translateY(-25%)',sm:'translateY(-50%)'},
                                 zIndex:123456,
                                 position:'absolute'}}>
                          <Typography
@@ -118,7 +118,7 @@ component={'h1'}
     sx={{
  
     fontSize: {
-        xs: '22px',
+        xs: '19px',
         sm: '24px'
     },
     padding:.5,
@@ -133,7 +133,7 @@ component={'p'}
     sx={{
  
     fontSize: {
-        xs: '.98em',
+        xs: '.8em',
         sm: '1.1em'
     },
     padding:.5,

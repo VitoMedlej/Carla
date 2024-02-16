@@ -19,7 +19,7 @@ const CategoryCard = ({ imageUrl, categoryName } : any) => {
         <Typography component='h1' gutterBottom className='text-center auto' sx={{pb:1,fontWeight:600,fontSize:'1.2em'}} variant="h1" >
           {categoryName}
         </Typography>
-        <Btn  v2 sx={{border:'none',color:'black',textDecoration:'underline',mt:1}}  className='auto'>
+        <Btn  v2 sx={{border:'none',color:'black',padding:'.3em',textDecoration:'underline',mt:1}}  className='auto'>
           Show More
         </Btn>
       </CardContent>
