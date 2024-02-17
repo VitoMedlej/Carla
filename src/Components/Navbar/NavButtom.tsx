@@ -2,6 +2,7 @@
 import { Box, Container, Typography } from '@mui/material'
 import Link from 'next/link'
 import React from 'react'
+import { mainCategories } from '../Sidebar/NestedAccordion'
 // import MenuHover from './MenuHover'
 
 
@@ -39,7 +40,7 @@ const NavButtom = () => {
                 <Link className='black decor-none ' href={`/collection/products`}>
 
 <Typography 
-className=' cursor center flex gap1 black decor-none captialize'
+className=' cursor center flex gap1 black decor-none uppercase'
 id="button"
 component='h1' sx={{width:'max-content',
 mx:'1em',
@@ -52,7 +53,7 @@ Shop Now
 <Link className='black decor-none ' href={`/about`}>
 
 <Typography 
-className=' cursor center flex gap1 black decor-none captialize'
+className=' cursor center flex gap1 black decor-none uppercase'
 id="button"
 component='h1' sx={{width:'max-content',
 mx:'1em',
@@ -65,7 +66,11 @@ About Us
 
 
 {
-   [`moisturizer`, `body oils`, `tanning oils`].map(i=>{
+//    [
+    
+    // `moisturizer`,
+    //  `body oils`, `tanning oils`]
+    mainCategories.map(i=>{
         return <Link key={i} className='black decor-none ' href={`/${i.toLocaleLowerCase()}/products`}>
 
         <Typography 

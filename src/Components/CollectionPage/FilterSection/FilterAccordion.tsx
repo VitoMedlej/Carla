@@ -59,19 +59,19 @@ export default function SimpleAccordion({handleSubmit,options,setOptions}:any) {
                 }
             />
         },
-        {
-            comp: <SelectOneForm
-            sx={{maxWidth:'250px'}}
-            title= 'Type'
-           List={
-            getCategorySubcategories(`${options?.category?.toLocaleLowerCase()}`)
-          }
-           value={options?.type}
-           setValue={
-            handleTypeChange
-               }
-           />
-       },
+    //     {
+    //         comp: <SelectOneForm
+    //         sx={{maxWidth:'250px'}}
+    //         title= 'Type'
+    //        List={
+    //         getCategorySubcategories(`${options?.category?.toLocaleLowerCase()}`)
+    //       }
+    //        value={options?.type}
+    //        setValue={
+    //         handleTypeChange
+    //            }
+    //        />
+    //    },
 
         // {
         //     comp: <SelectOneForm
