@@ -183,7 +183,7 @@ transforming everyday skincare into a moment of indulgence today!
         </Grid>
         <Grid item xs={12} md={7}>
           <Box className='auto' sx={{width:'95%',height:{xs:'100%',sm:'400px'}}}>
-            <img style={{borderRadius:'4px'}} src={resImages?.categoryImage[0] || "https://helwe.com/cdn/shop/files/fresh-and-natural-spa-decor_800x.jpg?v=1614332671"} alt="" className="img" />
+            <img style={{borderRadius:'4px'}} src={resImages?.categoryImage[0]?.img || "https://helwe.com/cdn/shop/files/fresh-and-natural-spa-decor_800x.jpg?v=1614332671"} alt="" className="img" />
           </Box>
         </Grid>
       </Grid>
@@ -191,7 +191,7 @@ transforming everyday skincare into a moment of indulgence today!
       <Grid container sx={{my:{xs:6,sm:12},maxWidth:'lg',mx:'auto'}}>
       <Grid item xs={12} md={7}>
           <Box className='auto' sx={{width:'95%',height:{xs:'100%',sm:'400px'}}}>
-            <img style={{borderRadius:'4px'}} src={resImages?.categoryImage[1] ||"https://helwe.com/cdn/shop/files/shop6_0b559809-c209-4381-8eaf-3b9f023a0651_1922x.jpg?v=1672230241"} alt="" className="img" />
+            <img style={{borderRadius:'4px'}} src={resImages?.categoryImage[1]?.img ||"https://helwe.com/cdn/shop/files/shop6_0b559809-c209-4381-8eaf-3b9f023a0651_1922x.jpg?v=1672230241"} alt="" className="img" />
           </Box>
         </Grid>
         
@@ -290,7 +290,7 @@ Make it a reality, Start your journey towards radiant, glowing skin. Remember, a
         </Grid>
         <Grid item xs={12} md={7}>
           <Box className='auto' sx={{width:'95%',height:{xs:'100%',sm:'400px'}}}>
-            <img style={{borderRadius:'4px'}} src={resImages?.categoryImage[2] ||"https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} alt="" className="img" />
+            <img style={{borderRadius:'4px'}} src={resImages?.categoryImage[2]?.img ||"https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} alt="" className="img" />
           </Box>
         </Grid>
       </Grid>
