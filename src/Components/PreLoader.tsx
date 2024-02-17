@@ -108,6 +108,8 @@ PreLoader = ({data,resImages}:any) => {
 
 
                                 <Container className='flex row wrap  ' sx={{
+                                  px:{xs:1,sm:2},
+                                  gap:{xs:1},
         justifyContent:{xs:'center',sm:'justify-between'},
         mt:2}} maxWidth='lg'>
           

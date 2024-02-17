@@ -6,7 +6,7 @@ const CategoryCard = ({ imageUrl, categoryName } : any) => {
   return (
     <Card
     sx={{boxShadow:'none',
-    width:{xs:'49%',sm:'auto'},
+    width:{xs:'48%',sm:'auto'},
     mt:2,mx:0,borderRadius:'4px',border:'none', maxWidth: 345 }}>
       <CardMedia
         component="img"
