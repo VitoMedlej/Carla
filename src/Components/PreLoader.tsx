@@ -56,7 +56,7 @@ PreLoader = ({data,resImages}:any) => {
 
   return (
     <Box >
-      <MainCarousel res={undefined} />
+      <MainCarousel res={resImages} />
       <Grid className='center auto' sx={{px:{xs:1,sm:0},py:{xs:8},maxWidth:'lg'}}>
         <Typography 
                                 className=''
@@ -99,12 +99,12 @@ PreLoader = ({data,resImages}:any) => {
                              
                              Our products are suitable for each skin
                                 </Typography>
-                                <Typography 
+                                {/* <Typography 
                                 className='text-center auto center'
                                 sx={{color:'black',fontSize:{xs:'.85em',sm:'.87em'},mt:1,px:1,maxWidth:'800px'}}>
                            Do you know your skin type? Read more to understand your skin type or contact us for a free consultation with our skin experts.
 
-                                </Typography>
+                                </Typography> */}
 
 
                                 <Container className='flex row wrap space-between justify-between ' sx={{
@@ -113,19 +113,19 @@ PreLoader = ({data,resImages}:any) => {
           
       {
         [{
-          img:`https://helwe.com/cdn/shop/files/3_36e07bc7-d063-47e6-966b-62d9140e0007_295x.png?v=1662366307`,
+          img:`https://media.istockphoto.com/id/1370432258/photo/closeup-or-woman-applying-moisturizing-body-lotion-on-shoulder-using-nourishing-cream-for-skin.jpg?s=612x612&w=0&k=20&c=1MGQcyc6Y5ArDp28XdNPrXwU8XqHov6n2xxnpjZIB6o=`,
           title:'Dry skin'
         },
         {
-          img:`https://helwe.com/cdn/shop/files/2_c7d2e24e-1a0b-4192-a4d1-01a9f6b928b6_295x.png?v=1662366307`,
-          title:'Combination Skin'
-        },
-        {
-          img:`https://helwe.com/cdn/shop/files/1_c4b8cd92-2c53-40e8-93f7-163d7f7fd928_295x.png?v=1662366307`,
+          img:`https://media.istockphoto.com/id/1395633030/photo/beauty-portrait-of-happy-smiling-asian-woman-with-dark-long-hair-put-day-nourishing.jpg?s=612x612&w=0&k=20&c=eDHpBa_1RvMMVOK_MBvHTpETO0t8lG4rdf8wMg888d8=`,
           title:'Oily Skin'
         },
-        {img:'https://helwe.com/cdn/shop/files/4_e2a4d56a-01b1-4e11-bd30-4e710dea7dba_295x.png?v=1662366493',
-      title:'Know your skin'}
+        {
+          img:`https://st.depositphotos.com/16122460/59196/i/450/depositphotos_591969018-stock-photo-collage-photos-woman-having-dry.jpg`,
+          title:'Combination Skin'
+        },
+      //   {img:'https://helwe.com/cdn/shop/files/4_e2a4d56a-01b1-4e11-bd30-4e710dea7dba_295x.png?v=1662366493',
+      // title:'Know your skin'}
       ].map(i=>{
         return <CategoryCard key={i} categoryName={i?.title} imageUrl={i?.img}/>
         

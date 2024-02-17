@@ -36,10 +36,9 @@ const Preloader3 = ({res}:{res:any}) => {
      }
     useEffect(() => {
         console.log('res: ', res);
-    if (res && res?.MainCarousel && res?.MainCarousel?.length > 0) {
-        console.log('res?.MainCarousel: ', res?.MainCarousel);
+    if (res && res?.length > 0) {
         // console.log('res: ', );
-        setImgs(res?.MainCarousel)
+        setImgs(res)
     }
     }, [])
 //   const {text} = useLanguage()
