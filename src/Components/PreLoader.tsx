@@ -196,7 +196,7 @@ transforming everyday skincare into a moment of indulgence today!
         </Grid>
         
         <Grid className='flex items-center' item xs={12} md={5}>
-            <Box className=' col  flex items-center' sx={{
+            {/* <Box className=' col  flex items-center' sx={{
             
              px:{xs:1,sm:4},py:4,
               borderRadius:'0px',
@@ -238,7 +238,7 @@ Feed your hair the nutrition it craves. Our hair serum provides the perfect nour
             onClick={()=>router.push('/collection/products')}>
                 Shop Now
             </Btn>
-            </Box>
+            </Box> */}
         </Grid>
      
       </Grid>
