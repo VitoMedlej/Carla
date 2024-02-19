@@ -40,6 +40,25 @@ catch(e){
   return null
 }
 }
+const fetchData = async () => {
+  try{
+
+  
+  const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{ next:{revalidate:100} })
+  // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`)
+  let res = req &&  await req.json();
+  if (res) {
+    return res
+  }
+  return null
+}
+catch(e){
+  return null
+
+  console.log('e: ', e);
+
+}
+}
 export default async function Home() {
   // export default async function Home() {
 //   const [data,setData] = useState< {
@@ -74,9 +93,7 @@ export default async function Home() {
 try {
 
       // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{ next: { revalidate: 10 } })
-    const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{ next:{revalidate:100} })
-    // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`)
-    let res = req &&  await req.json();
+      const res = await fetchData()
       // console.log('res: ', res);
       // const reqImages = await fetch(`https://getpantry.cloud/apiv1/pantry/732d3c8c-d53a-4c4c-830c-fe9b7e021958/basket/Images`,{  cache:'no-store', next: { revalidate: 400 } })
       // let resImages : any = await  reqImages.json();
