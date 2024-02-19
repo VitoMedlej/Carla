@@ -44,7 +44,8 @@ const fetchData = async () => {
   try{
 
   
-  const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{ next:{revalidate:10} })
+  // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{ next:{revalidate:10} })
+  const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{cache:'no-store', next: { revalidate: 0 }})
   // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`)
   let res = req &&  await req.json();
   if (res) {
