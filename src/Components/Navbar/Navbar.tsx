@@ -105,7 +105,7 @@ export default function Navbar() {
         transform:{sm:'translateX(50%)'},width:{xs:'auto',sm:'100px'},height:{xs:'100px',sm:'100px'}}}>
             <img
              src="https://ucarecdn.com/06e9bb80-7e63-49da-b234-d664066b9996/NEeNyLx5vBNjyronIyq2Ytransformed.png"
-             alt="logo" className="img logo" />
+             alt="logo" className="img logo mxwidth" />
         </Box>
 
 
