@@ -25,19 +25,19 @@ import useLanguage from '@/Hooks/useLanguage';
 // ]
 const tests = [
   {
-    title: "Discover the Power of AMARIA!",
+    title: "Discover the Power of Number1ByCarla!",
     reviewer: "(Ella, Health Enthusiast)",
-    description: "AMARIA is a true haven for health and wellness enthusiasts like myself. Their premium selection of natural supplements is a game-changer. From the revitalizing effects of ashwagandha to the vitality boost of tongkat ali, they have it all. I've experienced a remarkable improvement in my overall well-being since I started incorporating their products into my daily routine. AMARIA is my go-to destination for all my health and wellness needs!",
+    description: "Number1ByCarla is a true haven for health and wellness enthusiasts like myself. Their premium selection of natural supplements is a game-changer. From the revitalizing effects of ashwagandha to the vitality boost of tongkat ali, they have it all. I've experienced a remarkable improvement in my overall well-being since I started incorporating their products into my daily routine. Number1ByCarla is my go-to destination for all my health and wellness needs!",
   },
   {
-    title: "A Wellness Oasis with AMARIA!",
+    title: "A Wellness Oasis with Number1ByCarla!",
     reviewer: "(Oliver, Fitness Fanatic)",
-    description: "When it comes to my fitness journey, AMARIA has been a true ally. Their range of natural supplements, including cordyceps and lion's mane mushroom, has been a game-changer in my routine. The quality of their products is unparalleled, and I've seen significant improvements in my energy levels and mental clarity. AMARIA is my one-stop-shop for all things related to health and wellness. I can't recommend them enough!",
+    description: "When it comes to my fitness journey, Number1ByCarla has been a true ally. Their range of natural supplements, including cordyceps and lion's mane mushroom, has been a game-changer in my routine. The quality of their products is unparalleled, and I've seen significant improvements in my energy levels and mental clarity. Number1ByCarla is my one-stop-shop for all things related to health and wellness. I can't recommend them enough!",
   },
   {
-    title: "AMARIA: Your Path to Optimal Health!",
+    title: "Number1ByCarla: Your Path to Optimal Health!",
     reviewer: "(Ava, Wellness Advocate)",
-    description: "As a wellness advocate, I'm always on the lookout for high-quality supplements, and AMARIA has exceeded my expectations. Their comprehensive range of natural products, including ashwagandha, tongkat ali, cordyceps mushroom, and more, is a testament to their commitment to well-being. Whether you're a health enthusiast or someone looking to enhance their overall health, AMARIA is the answer. Trust me; you won't be disappointed!",
+    description: "As a wellness advocate, I'm always on the lookout for high-quality supplements, and Number1ByCarla has exceeded my expectations. Their comprehensive range of natural products, including ashwagandha, tongkat ali, cordyceps mushroom, and more, is a testament to their commitment to well-being. Whether you're a health enthusiast or someone looking to enhance their overall health, Number1ByCarla is the answer. Trust me; you won't be disappointed!",
   },
 ];
 

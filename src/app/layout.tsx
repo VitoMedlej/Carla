@@ -11,7 +11,7 @@ export const metadata = {
     title: 'Number1ByCarla: Premium Moisturizers, Body Oils, and Tanning Oils',
     description: `Experience the sheer joy of moisturizing with Number1ByCarla. Our Lebanese brand offers premium moisturizers, body oils, and tanning oils for a luxurious skincare routine.`,
     icons: {
-        icon: `https://ucarecdn.com/416d79f7-b2f0-405a-a62d-a575cf8e405e/410140937_1411199259826354_1255657051340304468_n.jpg`
+        icon: `https://ucarecdn.com/a7178404-5bcd-4840-9567-57da934a8100/WhiteAndBlackModernAbstractBeautyLogo.png`
     }
 }
 

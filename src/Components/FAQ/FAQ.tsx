@@ -10,8 +10,8 @@ import { Box } from '@mui/material';
 
 const FAQs = [
   {
-    "Q": "What is AMARIA and what do you sell?",
-    "A": "AMARIA is an online store devoted to providing natural supplements that promote health and wellness. Our products include premium-quality organic herbs and mushrooms such as ashwagandha, tongkat ali, cordyceps, lion’s mane, and more."
+    "Q": "What is Number1ByCarla and what do you sell?",
+    "A": "Number1ByCarla is an online store devoted to providing natural supplements that promote health and wellness. Our products include premium-quality organic herbs and mushrooms such as ashwagandha, tongkat ali, cordyceps, lion’s mane, and more."
   },
   {
     "Q": "Are your products organic?",

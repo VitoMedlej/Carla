@@ -12,12 +12,12 @@ const text = [
   ]
 const Index = () => {
   return (
-    <Container maxWidth='lg' className='auto' sx={{mx:1,py:4}}>
+    <Container maxWidth='lg' className='' sx={{mx:'auto',mt:12,py:4}}>
            <Typography sx={{mb:1,mx:'auto',fontSize:'2.5em',fontWeight:'600'}} className=" center text-center">
             ABOUT US
         </Typography>
         <Box sx={{width:'100%',height:'400px'}}>
-            <img src="https://ucarecdn.com/416d79f7-b2f0-405a-a62d-a575cf8e405e/410140937_1411199259826354_1255657051340304468_n.jpg" alt="" className="img contain" />
+            <img src="https://ucarecdn.com/a7178404-5bcd-4840-9567-57da934a8100/WhiteAndBlackModernAbstractBeautyLogo.png" alt="" className="img contain" />
         </Box>
     
         <Box sx={{my:4}}>

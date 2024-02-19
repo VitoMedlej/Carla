@@ -103,7 +103,7 @@ export default function Navbar() {
         
         transform:{sm:'translateX(50%)'},width:{xs:'auto',sm:'100px'},height:{xs:'100px',sm:'100px'}}}>
             <img
-             src="https://ucarecdn.com/8d771867-274f-4c3a-ba35-2a177ee9dc1e/carlalogotransformed.png"
+             src="https://ucarecdn.com/faf8cc82-f28f-4e3c-9526-1ad77429cec3/WhiteAndBlackModernAbstractBeautyLogo.png"
              
              
              alt="logo" className="img logo" />
