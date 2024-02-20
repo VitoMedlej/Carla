@@ -143,13 +143,13 @@ Our products are crafted with care, ensuring that each application leaves your s
                                 </Typography>
                                 <Box className="flex ">
 
-                                <Btn
+                                {/* <Btn
                                 onClick={()=>redir()}
                                 
                                 className='   ' sx={{mx:'0',mt:1}}>
                             Join us
 
-                                </Btn>
+                                </Btn> */}
                             
                                 </Box>
                             </Box>
