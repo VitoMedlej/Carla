@@ -137,7 +137,7 @@ const Preloader2 = ({data,totalPages}:any) => {
                 sizes={null} />
         })
 : <Typography>
-No products found, try a different category...
+{category?.toLocaleLowerCase() == 'facial care'   ? 'Coming Soon!' : `No products found, try a different category...`}
 </Typography>}
     </Box>
     <Pagination
