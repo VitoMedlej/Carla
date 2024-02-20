@@ -27,17 +27,32 @@ const tests = [
   {
     title: "Discover the Power of Number1ByCarla!",
     reviewer: "(Ella, Health Enthusiast)",
-    description: "Number1ByCarla is a true haven for health and wellness enthusiasts like myself. Their premium selection of natural supplements is a game-changer. From the revitalizing effects of ashwagandha to the vitality boost of tongkat ali, they have it all. I've experienced a remarkable improvement in my overall well-being since I started incorporating their products into my daily routine. Number1ByCarla is my go-to destination for all my health and wellness needs!",
+    description: "Thank you  ktir anjad, sar 3nde baby skin  mn wara l body oil , love it !!",
   },
   {
     title: "A Wellness Oasis with Number1ByCarla!",
     reviewer: "(Oliver, Fitness Fanatic)",
-    description: "When it comes to my fitness journey, Number1ByCarla has been a true ally. Their range of natural supplements, including cordyceps and lion's mane mushroom, has been a game-changer in my routine. The quality of their products is unparalleled, and I've seen significant improvements in my energy levels and mental clarity. Number1ByCarla is my one-stop-shop for all things related to health and wellness. I can't recommend them enough!",
+    description: "Chou hal tanning oil bisatiil , akhadet lon anjad waw bel solarium w ma 7tara2et eza hala2 hek kif bukra al ba7er ?!!!",
   },
   {
     title: "Number1ByCarla: Your Path to Optimal Health!",
     reviewer: "(Ava, Wellness Advocate)",
-    description: "As a wellness advocate, I'm always on the lookout for high-quality supplements, and Number1ByCarla has exceeded my expectations. Their comprehensive range of natural products, including ashwagandha, tongkat ali, cordyceps mushroom, and more, is a testament to their commitment to well-being. Whether you're a health enthusiast or someone looking to enhance their overall health, Number1ByCarla is the answer. Trust me; you won't be disappointed!",
+    description: "Merci ktir , l packaging  ne3im w mratab . w l result gher mawdou3 ktir 7abet ",
+  },
+  {
+    title: "Number1ByCarla: Your Path to Optimal Health!",
+    reviewer: "(Ava, Wellness Advocate)",
+    description: "Ktir 7abet l oil yaret shtaret l kbir fared mara, bs ykhlas hyda ha otlob l kbir for sure ",
+  },
+  {
+    title: "Number1ByCarla: Your Path to Optimal Health!",
+    reviewer: "(Ava, Wellness Advocate)",
+    description: "Thank you dear , in love with the solarium tanning oil !!!!!!",
+  },
+  {
+    title: "Number1ByCarla: Your Path to Optimal Health!",
+    reviewer: "(Ava, Wellness Advocate)",
+    description: "Hello dear, sah talabet the small bottle bs can you send me 2 big oils ? bisattlo honestly !",
   },
 ];
 

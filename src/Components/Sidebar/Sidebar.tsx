@@ -91,6 +91,20 @@ useEffect(()=>{
   
 
           </ListItem>
+          <ListItem
+          sx={{fontWeight:400}}
+
+          onClick={()=>{router.push(`/collection/products`); toggleDrawer(false)}}
+           disablePadding>
+            <ListItemButton>
+            
+                  <Typography component='h1' sx={{fontWeight:600}}>
+              About Us
+            </Typography>
+            </ListItemButton>
+  
+
+          </ListItem>
        
       <NestedMenuAccordion/>
           {/* {

@@ -72,7 +72,11 @@ PreLoader = ({data,resImages}:any) => {
                                 <Typography 
                                 className=' '
                                 sx={{color:'black',fontSize:{xs:'18px',sm:'18px'},mt:1,maxWidth:'800px'}}>
-                             Welcome to a realm where skincare meets indulgence. At Number1ByCarla, we&apos;re not just about products; we&apos;re about creating transformative experiences.
+                                  {
+                                    `
+                          Welcome to a space where skincare meets indulgence and satisfaction. At Number1byCarla, not everything is about products; it’s about creating transformative experiences.
+                                    `
+                                  }
 
                                 </Typography>
                               

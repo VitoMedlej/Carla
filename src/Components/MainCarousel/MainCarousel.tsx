@@ -138,7 +138,7 @@ component={'p'}
     padding:.5,
     fontWeight: '300'
 }}>
-Our products are crafted with care, ensuring that each application leaves your skin feeling refreshed and rejuvenated.
+Our products are made with care, ensuring that each application leaves your skin highly moisturized, refreshed and shiny.
 
                                 </Typography>
                                 <Box className="flex ">
