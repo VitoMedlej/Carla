@@ -65,7 +65,9 @@ const EmptyCartAlert = () => {
 const Cart = () => {
     const [cartItems,setCartItems] = useState<ICartItem[]>([])
     const total= totalCal(cartItems) || 0; 
-    const {discountedPrice,isFirstOrder} = useDiscount(total)
+   
+
+    // const {discountedPrice,isFirstOrder} = useDiscount(total)
     let localCart : ICartItem[] = loadState('prodNtX932ux2') || []
     useEffect(() => {
         if (localCart) {
@@ -147,18 +149,13 @@ const Cart = () => {
                       justifyContent: 'space-between'
                   }}
                     className='flexed'> 
-{isFirstOrder &&     <Typography sx={{
-            color:'green',
-                        fontWeight: '600'
-                    }}>
-                        Get 10% off your first order!
-                        </Typography>}
+
                         <Typography sx={{
                         fontWeight: '600'
                     }}>
                     Delivery Fees:{' '}
                         <span style={{color:'green'}}>
-                        ${cartItems?.length > 0 ? discountedPrice + Number(process.env.NEXT_PUBLIC_FEE || 0) : 0}
+                        ${cartItems?.length > 0 ?  3 : 0}
                         
                     </span>
                         </Typography>
@@ -167,7 +164,7 @@ const Cart = () => {
                     }}>
                     Total:{' '}
                         <span style={{color:'green'}}>
-                        ${cartItems?.length > 0 ? discountedPrice + Number(process.env.NEXT_PUBLIC_FEE || 0) : 0}
+                        ${parseFloat(process.env.NEXT_PUBLIC_FEE ? process.env.NEXT_PUBLIC_FEE : '0') + total}
                         
                     </span>
                         </Typography>

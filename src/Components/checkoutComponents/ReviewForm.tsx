@@ -45,8 +45,7 @@ export default function Review({setActiveStep}:{setActiveStep:any}) {
  
   const info = loadState('Niozhh1io422')
   
-  const total = totalCal(products) + Number(process.env.NEXT_PUBLIC_FEE || 0);
-  const {discountedPrice,isFirstOrder} = useDiscount(total)
+  const total = totalCal(products);
   if (!info) {
     setActiveStep(0)
   }
@@ -85,7 +84,7 @@ export default function Review({setActiveStep}:{setActiveStep:any}) {
           <ListItemText primary="Total + 3$ Delivery Fees" />
           <Typography variant="subtitle1" sx={{ fontWeight: 700 }}>
             {/* ${Number(total) >= 60 ? total : Number(total) + 4} */}
-            ${Number(discountedPrice)?.toFixed(2)}
+            ${parseFloat(process.env.NEXT_PUBLIC_FEE ? process.env.NEXT_PUBLIC_FEE : '0') + total}
           </Typography>
         </ListItem>
         {/* <Typography variant="subtitle1" sx={{color:'green', fontWeight: 400 }}>
