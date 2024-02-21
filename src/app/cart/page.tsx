@@ -153,7 +153,15 @@ const Cart = () => {
                     }}>
                         Get 10% off your first order!
                         </Typography>}
-
+                        <Typography sx={{
+                        fontWeight: '600'
+                    }}>
+                    Delivery Fees:{' '}
+                        <span style={{color:'green'}}>
+                        ${cartItems?.length > 0 ? discountedPrice + Number(process.env.NEXT_PUBLIC_FEE || 0) : 0}
+                        
+                    </span>
+                        </Typography>
                     <Typography sx={{
                         fontWeight: '600'
                     }}>

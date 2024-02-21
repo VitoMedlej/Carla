@@ -17,7 +17,7 @@ const useDiscount = (price:number) => {
   // }, []);
 
   const calculateDiscount = () => {
-    return isFirstOrder ? Number(price * 0.9)?.toFixed(1) : price?.toFixed(1);
+    return isFirstOrder ? Number(price * 0.9)?.toFixed(1) + Number(process.env.NEXT_PUBLIC_FEE || 0) : price?.toFixed(1) + Number(process.env.NEXT_PUBLIC_FEE || 0);
   };
 
   return {discountedPrice: calculateDiscount(),isFirstOrder};
