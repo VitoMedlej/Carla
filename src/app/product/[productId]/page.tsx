@@ -102,7 +102,7 @@ const Index = () => {
                  component={'h1'} sx={{my:.25,fontWeight:500,color:'black',fontSize:{xs:'1em',sm:'1.55em'}}}>
                  ${
                  selectedSize?.price ||
-                 data?.product?.price || 0}
+                 data?.product?.newPrice ? data?.product?.newPrice : data?.product?.price || 0}
              </Typography>}
              
             
@@ -123,12 +123,12 @@ const Index = () => {
              {data?.product?.sizes?.length > 0 &&  <SelectWeight
               selectedSize={selectedSize  }
               setselectedSize={setselectedSize}
-              sizes={data?.product?.sizes ? data?.product?.sizes:  [{price:Number(data?.product?.price),size:parseFloat(data?.product?.size)}]}/>}
+              sizes={data?.product?.sizes ? data?.product?.sizes:  [{price:Number(data?.product?.newPrice? data?.product?.newPrice : data?.product?.price),size:parseFloat(data?.product?.size)}]}/>}
      
              <Btn 
                      onClick={()=>
                       // data?.product?.stock >= selectedQuantity   && 
-                      addToCart(selectedQuantity,`${data?.product?._id}`,{title : data.product.title ,category: data.product.category,img:data.product.images[0], _id : data.product._id,price:selectedSize?.price ? selectedSize?.price : data?.product?.price, productselectedSize:selectedSize?.size,productselectedPrice:selectedSize?.price},true,true)}
+                      addToCart(selectedQuantity,`${data?.product?._id}`,{title : data.product.title ,category: data.product.category,img:data.product.images[0], _id : data.product._id,price:selectedSize?.price ? selectedSize?.price : data?.product?.newPrice? data?.product?.newPrice : data?.product?.price, productselectedSize:selectedSize?.size,productselectedPrice:selectedSize?.price},true,true)}
              
               sx={{gap:.5,
                 borderRadius:0,

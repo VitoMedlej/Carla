@@ -80,7 +80,7 @@ export default function TemporaryDrawer() {
                         if (!item?._id) return;
                         return <CartProduct 
                         productselectedPrice={item?.productselectedPrice}
-                        productselectedSize={item?.productselectedSize} _id={item._id} qty={item.qty} price={item.price} img={item.img}
+                        productselectedSize={item?.productselectedSize} _id={item._id} qty={item.qty} price={item.newPrice ?Number(item.newPrice): Number(item.price)} img={item.img}
                         remove={remove}
                         title={item.title} key={index}/>
                             })

@@ -131,6 +131,7 @@ const Preloader2 = ({data,totalPages}:any) => {
                 _id={i._id}
                 title={i.title}
                 price={i.price}
+                newPrice={i?.newPrice}
                 images={i.images}
                 category={i.category}
 
