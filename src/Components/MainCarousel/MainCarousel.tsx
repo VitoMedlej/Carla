@@ -16,17 +16,10 @@ import Btn from '../Btn/Btn';
 const Preloader3 = ({res}:{res:any}) => {
     const router = useRouter()
     const [imgs,setImgs] = useState([
-        {
-            img:'https://ucarecdn.com/c49373fc-85f0-4da1-803c-d2614270e5bb/TRI6.jpg',
-            position:'center',
-        },
-        {
-            img : 'https://helwe.com/cdn/shop/files/HELWE1125_1500x.jpg?v=1694639701',
-            position:'top',
-        },
+      
         
       {
-        img: 'https://helwe.com/cdn/shop/files/1_e0850903-aa85-4de4-b1bb-760310fd7813_1200x.png?v=1688387749',
+        img: 'https://ucarecdn.com/6a296c50-9220-4e44-bc46-5973867c64da/',
         position:'',
     },
      ])
