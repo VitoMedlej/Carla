@@ -20,7 +20,7 @@ const fetchDataAndSetImgs = async () => {
         'Content-Type': 'application/json',
         'X-Master-Key': '$2a$10$oO7JF9H9fEhY6itLndL/kOBlo6DoOM0X6vXK8SnJxF4GOM7K4XWo2'
       },
-    next:{revalidate:1000}
+    // next:{revalidate:1000}
   },
   )
   if (!response?.ok) {
@@ -44,7 +44,7 @@ const fetchData = async () => {
   try{
 
   
-  const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{ next:{revalidate:1000} })
+  const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`)
   // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`,{cache:'no-store', next: { revalidate: 0 }})
   // const req = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/get-data`)
   let res = req &&  await req.json();
@@ -99,6 +99,7 @@ try {
       // const reqImages = await fetch(`https://getpantry.cloud/apiv1/pantry/732d3c8c-d53a-4c4c-830c-fe9b7e021958/basket/Images`,{  cache:'no-store', next: { revalidate: 400 } })
       // let resImages : any = await  reqImages.json();
       let resImages : any =await fetchDataAndSetImgs()
+      // let resImages : any = null
       // let res = {data:{featuredProducts:null}}
       
       return (
